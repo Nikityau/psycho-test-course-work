@@ -1,0 +1,78 @@
+.img_size_m {
+    width: 6rem;
+    height: auto;
+}
+.img_size_s {
+    width: 2.5rem;
+    height: auto;
+}
+.img_size_ss {
+    width: 1.5rem;
+    height: auto;
+}
+.img_size_sss {
+    width: .4rem;
+    height: auto;
+}
+
+.text_roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+
+    color: #F2F2F2;
+}
+.text_roboto_fw-400 {
+    font-weight: 400;
+}
+.text_roboto_fw-500 {
+    font-weight: 500;
+}
+.text_size_m {
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+.text_size_sm {
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+}
+.text_size_ssm {
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+}
+.text_size_smsm {
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+.text_size_s {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+.text_uppercase {
+    text-transform: uppercase;
+}
+
+.text_dark_grey {
+    color: rgba(242, 242, 242, 0.42);
+}
+.text_yellow {
+    color: #F6C30A;
+}
+
+.el_hide {
+    opacity: 0;
+}
+.el_appear {
+    opacity: 1;
+}
+
+.block_el_align_center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
