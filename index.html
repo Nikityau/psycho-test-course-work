@@ -21,15 +21,15 @@
 <body>
 <div class="app">
     <div class="app__container">
-        <div class="mini-logo el_appear">
+        <div class="mini-logo el_hide">
             <img class="img_size_s" src="./src/assets/icon/logo.png" alt="mini-logo"/>
         </div>
-        <div class="enter-page page">
+        <div class="enter-page page page_active">
             <div class="enter-page__container">
-                <div class="enter-page__logo">
+                <div class="enter-page__logo el_hide">
                     <img class="img_size_m" src="./src/assets/icon/logo.png" alt="logo"/>
                 </div>
-                <div class="enter-page__title">
+                <div class="enter-page__title el_hide">
                     <span class="text_roboto">тесты для самопроверки</span>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                     </span>
                 </div>
                 <div class="subtype-test__subtypes"
-                     data-test-subtype="psychology and pedagogics"
+                     data-test-subtype="psychology_and_pedagogics"
                 >
                     <div class="subtype-test__line"></div>
                     <div class="subtype-test__subtype">
@@ -246,7 +246,7 @@
                 </div>
             </div>
         </div>
-        <div class="test-result page page_active">
+        <div class="test-result page">
             <div class="test-result__container page__container">
                 <div class="test-result__back block_el_align_center">
                     <img src="./src/assets/icon/arrow-yellow.png" alt="arrow-y"/>
@@ -322,8 +322,12 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+<script src="./src/scripts/eventEmitter.js"></script>
+<script src="./src/scripts/pageTransit.js"></script>
+<script src="./src/scripts/loadpage.js"></script>
+<script src="./src/scripts/typeTestPage.js"></script>
+<script src="./src/scripts/main.js"></script>
 </body>
 </html>
