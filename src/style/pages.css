@@ -146,6 +146,11 @@
 
     background: rgba(242, 242, 242, 0.6);
 }
+.subtype-test__line,
+.subtype-test__subtype span,
+.subtype-test__subtype img {
+    pointer-events: none;
+}
 
 .test-walkthrough {
 
