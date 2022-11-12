@@ -185,6 +185,8 @@
 
     border: 3px solid #fff;
     border-radius: 50%;
+
+    transition: background-color .3s linear;
 }
 
 .test-walkthrough__back,
@@ -230,4 +232,14 @@
     align-items: center;
 
     gap: 10px;
+}
+.test-walkthrough__answer div,
+.test-walkthrough__answer span {
+    pointer-events: none;
+}
+.test-walkthrough__answer_chosen {
+
+}
+.test-walkthrough__answer_chosen .test-walkthrough__answer-circle {
+    background: #fff;
 }

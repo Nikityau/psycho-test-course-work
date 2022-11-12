@@ -4,6 +4,7 @@ function main() {
     inDevTest.setEvents(onBack)
     subtypesTestPage.setEvents()
     testPage.setEvents()
+    testResult.setEvents()
 }
 
 function transitToTestSubtypes(type) {
